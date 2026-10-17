@@ -1,0 +1,27 @@
+# Виртуальное окружение Python
+.venv/
+venv/
+ENV/
+
+# Настройки IDE (PyCharm, VS Code)
+.idea/
+.vscode/
+*.swp
+
+# Байткод и кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Секретные ключи и переменные окружения
+.env
+.env.local
+
+# Базы данных / временные индексы
+data/index/
+*.sqlite3
+
+# Системные файлы
+.DS_Store
+Thumbs.db
